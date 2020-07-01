@@ -1,5 +1,7 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 h1{
@@ -16,7 +18,7 @@ p{
 }
 .link-button{
     background-image: linear-gradient(90deg, hotpink, #EC4C79);
-    padding: 10px 20px;
+    padding: 10px 30px;
     border-radius: 5px;
     text-decoration: none;
     color: white;
@@ -29,7 +31,7 @@ p{
     font-weight: 700;
 }
 .half-width img{
-    width: 100%;
+    width: 80%;
 }
 section{
     height: 500px;
@@ -39,6 +41,34 @@ section{
     background-image: url("img/header-bg.png");
     background-repeat: no-repeat;
     
+}
+#middle{
+    padding-top: 100px;
+}
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 70%;
+    background-color: white;
+ }
+.experience-area{
+    margin-top: 120px;
+    background-image: url("./img/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience-area h1{
+    margin-bottom: 40px;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightSalmon, tomato);
+    border-image-slice: 1;
+}
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
 }
 .biography-area{
     background-image: url("img/biography-bg.png");
@@ -51,7 +81,44 @@ section{
     float: left;
     width: 28%;
     margin-left: 4%;
+    margin-bottom: 50px;
+}
+#project-button{
+    margin-left: 40%;
 }
 .latest-work{
     background-image: url("img/latest-work-bg.png");
+    background-repeat: no-repeat;
+}
+.client-area{
+    text-align: center;
+}
+.client-area h6{
+    margin-top: -16px;
+    color: dimgray;
+}
+.box{
+    text-decoration: none;
+    margin:5% 30%;
+    background-image: linear-gradient(90deg, #EC5195,#EC4B75);
+    border-radius: 5px;
+    padding: 30px;
+   
+}
+.box h5{
+    color: white;
+}
+.box a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.client-area{
+    background-image: url("img/footer-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+footer p{
+    text-align: center;
+    font-size: 14px;
 }
